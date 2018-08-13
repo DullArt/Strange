@@ -1,0 +1,63 @@
+body{
+    overflow: hidden;
+    margin:0;
+}
+.nav{
+    width: 100%;
+    background-color:black; 
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+    color:crimson;
+    overflow: hidden;
+    position: relative;
+    top: -0.5rem;
+    z-index: 0;
+}
+    .nav a{
+        text-decoration: none;
+        color:crimson;
+    }
+    
+    .nav a:hover{
+        border-bottom:1px solid crimson;
+    }
+
+      
+    
+     /*   button com os elementos */
+     .navbar{
+         width: 4rem;
+         height: 2.5rem;
+         background-color: black;
+         color: crimson;
+         font-size: 1rem;
+         border:none;
+     }
+       
+
+
+
+     .nav-content{
+         display: none;
+         background-color: azure;
+         position:absolute;
+         width: 30%;
+         height: 10%; 
+         z-index:1;
+
+     }
+     .nav-content a{
+         display: block;     
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         text-decoration: none;
+         font-size: 0.5rem;
+         text-align:left;
+     }
+
+     .dropdown:hover .nav-content {
+        display: block;
+        
+     }
+
+     
